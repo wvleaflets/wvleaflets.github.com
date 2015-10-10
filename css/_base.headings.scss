@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+h1 {
+
+    @include font-size(36px);
+
+
+
+        @include breakpoint($tab) {
+
+        }
+
+            @include breakpoint($desk) {
+
+            }
+
+}
