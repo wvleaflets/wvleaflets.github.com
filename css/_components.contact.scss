@@ -8,6 +8,7 @@
 
 .phone {
     font-size: 3em;
+    line-height: 1.2;
 }
 
 .phone a {
@@ -16,4 +17,8 @@
     &:hover {
 
     }
+}
+
+.phone + p {
+    margin-top: 0.5em;
 }
