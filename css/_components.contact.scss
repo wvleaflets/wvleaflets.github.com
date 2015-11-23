@@ -2,15 +2,18 @@
     #CONTACT
 \*------------------------------------*/
 
-.contact {
+.contact-phone {
+    font-size: 1.4em;
+}
 
+.phone {
+    font-size: 3em;
+}
 
+.phone a {
+    color: $white;
 
-    @include breakpoint($tab) {
+    &:hover {
 
     }
-
-        @include breakpoint($desk) {
-
-        }
 }

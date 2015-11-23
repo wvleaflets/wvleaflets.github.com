@@ -1,0 +1,59 @@
+/*------------------------------------*\
+    #BRANDING
+\*------------------------------------*/
+
+.masthead {
+    text-align: center;
+}
+
+.title {
+    position: relative;
+}
+
+    .site-title a {
+        display: block;
+    }
+
+    .title span {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+
+.site-logo {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+}
+
+.tagline {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.11111rem;
+
+        @include breakpoint($tab) {
+            margin: 2em 0;
+        }
+}
+
+.summary-text {
+    font-size: 1.2em;
+
+        @include breakpoint($desk) {
+            font-size: 1.7em;
+        }
+}
+
+.sandwich {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 1em 0;
+    margin: 1em 0;
+    display: inline-block;
+}

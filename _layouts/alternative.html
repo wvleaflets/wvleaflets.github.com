@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="alternative">
+      <div class="page-section--compact page-section--header">
+        <header class="masthead clearfix">
+            <div class="layout">
+              <h1 class="title">
+                <span>
+                    {{ site.title }}
+                </span>
+                <a class="site-title" href="{{ site.baseurl }}/">
+                  <img class="site-logo" src="{{ site.baseurl }}/img/am-logo.svg" alt="AlldayMedia">
+                </a>
+              </h1>
+            </div>
+        </header>
+      </div>
+
+    <h2>{{ page.title }}</h2>
+    {{ content }}
+
+
+  </body>
+
+</html>

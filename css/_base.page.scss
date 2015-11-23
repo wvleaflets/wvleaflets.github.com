@@ -2,10 +2,17 @@
     #PAGE
 \*------------------------------------*/
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
 @-ms-viewport{
   width: device-width;
 }
 
 html {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: $ssans;
+    line-height: 1.7;
+    font-weight: 300;
+    color: $base-color;
+    font-size: $base-font-size;
+    text-align: center;
 }

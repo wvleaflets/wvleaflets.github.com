@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    #DMA-QUOTE
+\*------------------------------------*/
+
+.dma-quote {
+    overflow: hidden;
+    padding: 2em;
+    margin-bottom: 3em;
+    display: inline-block;
+    border: 3px solid $white;
+    border-radius: 10px;
+    line-height: 1;
+    background: rgba($black, 0.4);
+}
+
+
+    .dma-quote__percentage {
+        display: block;
+        line-height: 1;
+        @include font-size(96px);
+
+        @include breakpoint($desk) {
+            float: left;
+            line-height: 0.8;
+            @include font-size(108px);
+            margin-right: 0.25em;
+        }
+    }
+
+
+    .dma_quote__fact {
+
+        display: block;
+        line-height: 1.4;
+        @include breakpoint($desk) {
+            float: right;
+            @include font-size(22px);
+        }
+    }
+
+
+    .dma-quote cite {
+        text-align: right;
+        margin-top: 2em;
+        @include font-size(14px);
+
+        @include breakpoint($desk) {
+            float: right;
+            clear: right;
+            margin-top: 1em;
+            @include font-size(14px);
+        }
+    }

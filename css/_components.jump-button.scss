@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    #JUMP BUTTONS
+\*------------------------------------*/
+
+.jump-point {
+    position: absolute;
+    top: 0;
+}
+
+.jump-wrapper {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+}
+
+.jump-link {
+    display: inline-block;
+}
+
+/**
+ * Dark Jump Buttons.
+ */
+
+.jump-button__arrow {
+    fill: $grey-transparent;
+}
+
+.jump-link:hover .jump-button__arrow {
+    fill: $grey-transparent-accent;
+}
+
+.jump-button__rim {
+    stroke: $grey-transparent;
+}
+
+.jump-link:hover .jump-button__rim {
+    stroke: $grey-transparent-accent;
+}
+
+
+/**
+ * Light buttons.
+ */
+ .jump-button__arrow--light {
+     fill: $white-transparent;
+ }
+
+ .jump-link:hover .jump-button__arrow--light {
+     fill: $white-transparent-accent;
+ }
+
+.jump-button__rim--light {
+     stroke: $white-transparent;
+ }
+
+ .jump-link:hover .jump-button__rim--light {
+     stroke: $white-transparent-accent;
+ }

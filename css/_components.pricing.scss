@@ -1,0 +1,79 @@
+/*------------------------------------*\
+    #PRICING
+\*------------------------------------*/
+
+.terms {
+    text-align: center;
+
+}
+
+
+
+
+
+/**
+ * Options.
+ */
+
+.option-wrapper {
+
+    @include breakpoint($desk) {
+        display: flex;
+    }
+
+}
+
+
+    .option {
+        text-align: center;
+
+        margin-bottom: 5em;
+
+        @include breakpoint($desk) {
+            width: 50%;
+            padding: 0 4em;
+
+            &:last-child {
+
+            }
+        }
+    }
+
+
+        .option__name {
+            @include font-size(30px);
+            color: darken($color-brand-red, 20%);
+            line-height: 1.2;
+            font-weight: bold;
+        }
+
+
+        .option__price__amount,
+        .option__price__volume {
+            display: block;
+        }
+
+
+        .option__price__amount {
+            font-size: 4em;
+            color: $color-brand-red;
+            font-weight: bold;
+            line-height: 1;
+            margin: 0.25em 0;
+        }
+
+
+        .option__price__volume {
+            color: $color-heading;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+
+        /**
+         * Descriptions
+         */
+        .option__description {
+            font-weight: 300;
+            margin-top: 1.3em;
+        }

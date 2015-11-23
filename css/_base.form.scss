@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #FORM
+\*------------------------------------*/
+
+form {
+    padding: 2em;
+}
+
+input, textarea {
+    display: block;
+}
+
+textarea, .form-group {
+    margin-bottom: 1em;
+}
+
+.form-text {
+    width: 100%;
+}
+
+form, .form-text, textarea {
+    max-width: 100%;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border-radius: 0.25em;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,.1);
+    background: $green linear-gradient(hsla(0,0%,100%,.2),
+    transparent);
+    color: $white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: lighten($green, 10%);
+    }
+}

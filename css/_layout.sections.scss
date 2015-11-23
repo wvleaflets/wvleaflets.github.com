@@ -1,0 +1,75 @@
+/*------------------------------------*\
+    #SECTIONS
+\*------------------------------------*/
+
+
+
+
+
+/**
+ * J.
+ */
+.alternative {
+    padding-bottom: 8em;
+    background: url(../img/am-j.png) no-repeat center bottom / 300px auto;
+}
+
+.page-section {
+    padding: 4em 0;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-section--compact {
+    padding: 4em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    .page-section--header {
+
+    }
+
+    .page-section--content {
+        background-image: url(../img/houses.jpg);
+        background-size: cover;
+    }
+
+    .page-section--faq {
+        background-image: url(../img/street.jpg);
+        background-size: cover;
+        text-align: left;
+    }
+
+    .page-section--contact {
+        background: $color-brand-red;
+    }
+
+        .page-section--contact-form {
+            text-align: left;
+        }
+
+    .page-section--footer {
+        padding: 1em 0;
+        min-height: inherit;
+        background: darken($color-brand-red, 10%);
+    }
+
+
+
+
+
+.layout {
+    max-width: 1270px;
+    padding: 0 2em;
+    margin-bottom: 3em; /* Buffer between content & jump-button */
+}
+
+    footer .layout {
+        margin-bottom: 0;
+    }

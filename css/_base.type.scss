@@ -3,7 +3,37 @@
 \*------------------------------------*/
 
 p {
+
+    margin-bottom: 1.7em;
+
     @include breakpoint($desk) {
 
     }
+}
+
+blockquote {
+
+}
+
+cite {
+    display: block;
+}
+
+
+.page-section--content,
+.page-section--faq {
+
+    @include breakpoint($desk) {
+        @include font-size(22px);
+    }
+}
+
+.inverted {
+    color: $white;
+}
+
+.copyright {
+    color: $pink;
+    margin-bottom: 0;
+    font-weight: bold;
 }
