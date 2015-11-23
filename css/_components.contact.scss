@@ -22,3 +22,11 @@
 .phone + p {
     margin-top: 0.5em;
 }
+
+.inverted .contact-link {
+    color: $pink;
+
+    &:hover {
+        color: lighten($pink, 10%);
+    }
+}
